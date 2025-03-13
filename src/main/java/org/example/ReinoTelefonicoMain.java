@@ -18,7 +18,7 @@ public class ReinoTelefonicoMain {
                 int id = sc.nextInt();
                 TroncomovilCabina cabina = sistema.getCabina(id);
                 if (opcion == 2) {
-                    System.out.println("Seleccione tipo de llamada Chismófono (1. Chiqui, 2. Monstruo, 3. Megazord): ");
+                    System.out.println("Seleccione tipo de llamada Chismófono (1. LOCAL, 2. LARGA DISTANCIA, 3. CELULAR): ");
                     ChismofonoLlamadas.Tipo tipo = ChismofonoLlamadas.Tipo.values()[sc.nextInt() - 1];
                     System.out.print("Ingrese la duración en minutos: ");
                     int minutos = sc.nextInt();
